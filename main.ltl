@@ -1,0 +1,15 @@
+// ltl-kml-read/main.ltl
+//
+// KML 2.2 placemark and polygon parser.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-kml-read v0.1.0")
+    io::println("KML 2.2 placemark and polygon parser.")
+    0
+}
